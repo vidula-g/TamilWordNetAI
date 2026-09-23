@@ -1,0 +1,20 @@
+@prefix tw: <http://example.org/tamilwordnet/> .
+
+tw:Anbu
+    a tw:Word ;
+    tw:label "அன்பு" ;
+    tw:relatedTo tw:Pasam ;
+    tw:appearsIn tw:Thirukkural ;
+    tw:appearsIn tw:Thirumandiram .
+
+tw:Pasam
+    a tw:Word ;
+    tw:label "பாசம்" .
+
+tw:Thirukkural
+    a tw:LiteraryWork ;
+    tw:title "திருக்குறள்" .
+
+tw:Thirumandiram
+    a tw:LiteraryWork ;
+    tw:title "திருமந்திரம்" .
